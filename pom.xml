@@ -6,8 +6,9 @@
 
     <groupId>org.gqchen</groupId>
     <artifactId>Utils</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <description>我的工具包</description>
+    <packaging>jar</packaging>
     <build>
         <plugins>
             <plugin>
@@ -87,6 +88,11 @@
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
             <version>1.7.25</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-to-slf4j</artifactId>
+            <version>2.17.0</version>
         </dependency>
 
         <dependency>
