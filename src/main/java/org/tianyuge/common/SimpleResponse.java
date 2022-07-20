@@ -1,4 +1,4 @@
-package org.gqchen.common;
+package org.tianyuge.common;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import org.apache.commons.httpclient.HttpStatus;

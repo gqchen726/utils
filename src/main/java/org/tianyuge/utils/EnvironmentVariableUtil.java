@@ -1,4 +1,4 @@
-package org.gqchen.utils;
+package org.tianyuge.utils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
