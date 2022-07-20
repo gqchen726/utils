@@ -7,13 +7,14 @@
     <groupId>org.gqchen</groupId>
     <artifactId>Utils</artifactId>
     <version>1.0</version>
-    <description>我的工具包</description>
+    <description>工具包</description>
     <packaging>jar</packaging>
     <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
                 <configuration>
                     <source>7</source>
                     <target>7</target>
@@ -99,6 +100,13 @@
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
             <version>1.6</version>
+        </dependency>
+
+        <!-- 示例以单元测试的形式，所以需要导入junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
         </dependency>
     </dependencies>
 
