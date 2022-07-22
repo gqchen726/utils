@@ -1,4 +1,4 @@
-package com.github.gqchen.utils;
+package ga.tianyuge.utils;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
