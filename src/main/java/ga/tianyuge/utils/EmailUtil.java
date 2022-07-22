@@ -1,4 +1,4 @@
-package org.tianyuge.utils;
+package ga.tianyuge.utils;
 
 import com.sun.mail.util.MailSSLSocketFactory;
 import org.apache.commons.lang3.StringUtils;

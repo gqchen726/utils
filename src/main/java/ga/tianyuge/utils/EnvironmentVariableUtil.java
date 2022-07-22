@@ -1,7 +1,6 @@
-package org.tianyuge.utils;
+package ga.tianyuge.utils;
 
 import org.apache.commons.lang3.StringUtils;
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import sun.nio.cs.ext.ExtendedCharsets;
@@ -70,14 +69,13 @@ public class EnvironmentVariableUtil {
         return result.toString();
     }
 
-    @Test
-    public void getCustomEnvironmentVariableTest() {
+    public static void main(String[] args) {
         try {
             /*String imcUser = getCustomEnvironmentVariable("ImcUser");
             String ImcPassword = getCustomEnvironmentVariable("ImcPassword");
             String ImcUrl = getCustomEnvironmentVariable("ImcUrl");
             logger.info("读取结果: {} {} {} ", imcUser, ImcPassword, ImcUrl);*/
-            String test = getCustomEnvironmentVariable("123Test");
+            String test = getCustomEnvironmentVariable("test");
             logger.info("读取结果: {}", test);
         } catch (Exception e) {
             e.printStackTrace();

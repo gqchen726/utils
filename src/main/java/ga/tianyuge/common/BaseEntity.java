@@ -1,4 +1,4 @@
-package org.tianyuge.common;
+package ga.tianyuge.common;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
