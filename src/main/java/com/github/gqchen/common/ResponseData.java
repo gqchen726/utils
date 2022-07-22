@@ -1,4 +1,4 @@
-package ga.tianyuge.common;
+package com.github.gqchen.common;
 
 import org.springframework.http.HttpStatus;
 

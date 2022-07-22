@@ -1,4 +1,4 @@
-package ga.tianyuge.utils;
+package com.github.gqchen.utils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

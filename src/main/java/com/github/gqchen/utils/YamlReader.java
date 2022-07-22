@@ -1,4 +1,4 @@
-package ga.tianyuge.utils;
+package com.github.gqchen.utils;
 
 import org.apache.log4j.Logger;
 import org.yaml.snakeyaml.Yaml;
